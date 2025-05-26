@@ -2,6 +2,27 @@
 
 Ini merupakan dokumentasi program ***Deep Learning*** yang saya buat berbasis web ataupun text
 
+---
+
+## 🔄 Pembaruan Terbaru
+
+### \[v2.0] - Mei 2025
+
+**Update Testing: Transisi ke Arsitektur Produksi Streamlit Cloud**
+
+* ✅ Struktur file diperbarui menjadi lebih modular dan sesuai standar **Streamlit Cloud**.
+* ✅ **Tokenizer dan model** di-load langsung dari file `.keras` dan `.pkl`.
+* ✅ Tidak lagi membutuhkan `ngrok`, cukup deploy via [Streamlit Cloud](https://streamlit.io/cloud).
+* ✅ `app.py` menggunakan `@st.cache_resource` untuk efisiensi pemrosesan.
+* 🚀 File lain upload soon
+* ❗ Model ini hanya untuk penggunaan edukatif dan penelitian. Penggunaan komersial atau otomatisasi berbahaya tidak diizinkan.
+* 🛠️ README diperbaharui lagi nantinya supaya lebih praktis bagi developer.
+
+> 🔙 Untuk versi lama berbasis Colab dan Ngrok, lihat:
+> [Notebook Lama](https://github.com/anjasopo/identifikasi-duplikat-pertanyaan-indonesia-glove/blob/main/Identifikasi%20Duplikat%20Pertanyaan.ipynb)
+
+---
+
 ## Informasi
 
 1. **Quora Indonesia** Dataset yang digunakan
